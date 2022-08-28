@@ -13,7 +13,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '14'
 libmatio:
-- 1.5.21
+- 1.5.23
 macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:

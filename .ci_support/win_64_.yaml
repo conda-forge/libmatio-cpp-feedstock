@@ -7,6 +7,6 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libmatio:
-- 1.5.21
+- 1.5.23
 target_platform:
 - win-64
