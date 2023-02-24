@@ -1,5 +1,5 @@
 {% set name = "libmatio-cpp" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://github.com/ami-iit/matio-cpp/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: a9144816e79f517b52593d2d934d6e727ff136495fee3b37d3eb6ebaf892b355
+    sha256: a37d0b0f3fea28639979f046cd0eab5a6fb58018b0a9dde9526f8f97a6df2f82
 
 build:
-  number: 2
+  number: 0
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x.x') }}
 
@@ -41,10 +41,10 @@ about:
   home: https://github.com/ami-iit/matio-cpp
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: A C++ wrapper of the matio library, with memory ownership handling, to read and write .mat files. 
+  summary: A C++ wrapper of the matio library, with memory ownership handling, to read and write .mat files.
 
 extra:
   recipe-maintainers:
     - traversaro
 
-    
+
