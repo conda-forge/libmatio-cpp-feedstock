@@ -59,7 +59,6 @@ outputs:
         - if not exist %LIBRARY_LIB%\\matioCpp.lib exit 1  # [win]
         - if not exist %LIBRARY_BIN%\\matioCpp.dll exit 1  # [win]
 
-
 about:
   home: https://github.com/ami-iit/matio-cpp
   license: BSD-2-Clause
@@ -69,5 +68,3 @@ about:
 extra:
   recipe-maintainers:
     - traversaro
-
-
