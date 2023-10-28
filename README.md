@@ -1,11 +1,11 @@
-About libmatio-cpp
-==================
+About libmatio-cpp-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libmatio-cpp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ami-iit/matio-cpp
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libmatio-cpp-feedstock/blob/main/LICENSE.txt)
 
 Summary: A C++ wrapper of the matio library, with memory ownership handling, to read and write .mat files.
 
