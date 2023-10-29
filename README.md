@@ -1,11 +1,11 @@
-About libmatio-cpp
-==================
+About matio-cpp-split-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libmatio-cpp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ami-iit/matio-cpp
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libmatio-cpp-feedstock/blob/main/LICENSE.txt)
 
 Summary: A C++ wrapper of the matio library, with memory ownership handling, to read and write .mat files.
 
@@ -82,27 +82,28 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-libmatio--cpp-green.svg)](https://anaconda.org/conda-forge/libmatio-cpp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libmatio-cpp.svg)](https://anaconda.org/conda-forge/libmatio-cpp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libmatio-cpp.svg)](https://anaconda.org/conda-forge/libmatio-cpp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libmatio-cpp.svg)](https://anaconda.org/conda-forge/libmatio-cpp) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-matio--cpp-green.svg)](https://anaconda.org/conda-forge/matio-cpp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/matio-cpp.svg)](https://anaconda.org/conda-forge/matio-cpp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/matio-cpp.svg)](https://anaconda.org/conda-forge/matio-cpp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/matio-cpp.svg)](https://anaconda.org/conda-forge/matio-cpp) |
 
-Installing libmatio-cpp
-=======================
+Installing matio-cpp-split
+==========================
 
-Installing `libmatio-cpp` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `matio-cpp-split` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `libmatio-cpp` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `libmatio-cpp, matio-cpp` can be installed with `conda`:
 
 ```
-conda install libmatio-cpp
+conda install libmatio-cpp matio-cpp
 ```
 
 or with `mamba`:
 
 ```
-mamba install libmatio-cpp
+mamba install libmatio-cpp matio-cpp
 ```
 
 It is possible to list all of the versions of `libmatio-cpp` available on your platform with `conda`:
@@ -172,17 +173,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating libmatio-cpp-feedstock
-===============================
+Updating matio-cpp-split-feedstock
+==================================
 
-If you would like to improve the libmatio-cpp recipe or build a new
+If you would like to improve the matio-cpp-split recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/libmatio-cpp-feedstock are
+Note that all branches in the conda-forge/matio-cpp-split-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
