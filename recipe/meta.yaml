@@ -11,7 +11,7 @@ source:
     sha256: 7568832f9cf08c3072968e0da8573b58f9023ac9c1ea051e363f81db829e8e83
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: {{ cxx_name }}
@@ -24,6 +24,7 @@ outputs:
     requirements:
       build:
         - {{ compiler('c') }}
+        - {{ stdlib("c") }}
         - {{ compiler('cxx') }}
         - cmake
         - pkg-config
