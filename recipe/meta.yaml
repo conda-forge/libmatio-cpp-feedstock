@@ -1,6 +1,6 @@
 {% set name = "matio-cpp" %}
 {% set cxx_name = "lib" + name  %}
-{% set version = "0.2.6" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name }}-split
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://github.com/ami-iit/matio-cpp/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: 3a7a3c5810c2e989cb19571e69621cd16b108686f04b2a97804b763810c6159e
+    sha256: 8b5bcec13023c5920dcd1dc857a3a27f481120f689ad15db047d725abe742263
 
 build:
   number: 0
