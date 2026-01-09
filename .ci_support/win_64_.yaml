@@ -9,6 +9,6 @@ channel_targets:
 cxx_compiler:
 - vs2022
 libmatio:
-- 1.5.29
+- 1.5.30
 target_platform:
 - win-64
